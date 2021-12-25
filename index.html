@@ -8,16 +8,43 @@
     <link rel="stylesheet" href="web.css" />
   </head>
   <body>
+    
     <nav>
-      <ul>
+      <!-- <ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/about.html">About</a></li>
         <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <h1>Hello my name is Ismail</h1>
-    <h2>i am learning js</h2>
+        <li><a href="/projects.html">Projects</a></li>
+      </ul> -->
+      
+      
+    <h1>Hey I am Ismail Abbasi </h1> <br>
+    <h2>I am Student and a Web Developer studying CSE from Jamia Hamdard   </h2>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blogs</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact Me</a>
+  </div>
+</nav>
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+   
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+       
+  
     <script src="index.js"></script>
   </body>
 </html>

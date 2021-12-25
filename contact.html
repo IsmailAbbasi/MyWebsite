@@ -1,25 +1,36 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="web.css" />
-</head>
-<body>
-  <nav>
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a href="about.html">About</a>
-      <a href="blog.html">Blogs</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact Me</a>
-    </div>
-    <div id="main">
-      <button class="openbtn" onclick="openNav()">☰ Menu</button>
-    </div>
-  </nav>
+  </head>
+  <body>
+    <nav>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blogs</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+      </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+      </div>
+    </nav>
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
 
     <h1>Contact</h1>
-</body>
+  </body>
 </html>

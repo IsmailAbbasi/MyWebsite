@@ -1,0 +1,19 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}

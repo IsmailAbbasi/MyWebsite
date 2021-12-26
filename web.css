@@ -1,9 +1,9 @@
 :root{
-  --main-bg-color:#ced0d4;
+  --main-bg-color:#c0e3ff;
 }
-/* #ced0d4 */
+/* #ced0d4 #06120b ffff93 ffff74 c0e3ff a4c9e7*/
 body{
-  background-color: #eed9bd;
+  background-color: #c0e3ff;
 }
 /* nav {
   width: 100%;
@@ -106,4 +106,10 @@ h2 {
 }
 .container {
   padding-top: 93px
+}
+footer {
+  text-align: center;
+    margin-top: 100px;
+    padding-top: 93px
+  
 }

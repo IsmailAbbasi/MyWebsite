@@ -86,3 +86,4 @@ generateEl.addEventListener('click', generatePassword)
      textarea.remove();
      alert('Password Copied To Clipboard');
  });
+ generatePassword();

@@ -76,7 +76,7 @@ generateEl.addEventListener('click', generatePassword)
  copyEl.addEventListener('click', () => {
      const textarea = document.createElement('textarea');
      const password = pwEl.innerText;
-     alert(password)
+    //  alert(password)
      if(!password) {return; }
      textarea.values = password;
      document.body.appendChild(textarea);
@@ -84,5 +84,5 @@ generateEl.addEventListener('click', generatePassword)
     //  document.execCommand('copy')
     navigator.clipboard.writeText(password);
      textarea.remove();
-     alert('Password Coppied To Clipboard');
+     alert('Password Copied To Clipboard');
  });

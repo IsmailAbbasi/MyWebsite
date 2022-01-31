@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@500&family=Spectral:ital,wght@0,200;1,200&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    /* background-color: linear-gradient(300deg, #ced1d6,#bfc0c0); */
+    background-color: #ced1d6;
+    font-family: 'Spectral';
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+input{
+    background-color:white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px rgb(0, 0,0,0.2);
+    font-family: inherit;
+    padding: 1rem ;
+    /* cursor: pointer; */
+    font-weight: bold;
+    min-width: 300px;
+    font-size: 1rem;
+}
+input:focus {
+    outline: none;
+}
+.weather{
+    font-size: 2rem;
+    text-align: center;
+}
+.weather h2 {
+margin-bottom: 0;
+display: flex;
+align-items: center;
+}
+/* .weather img {
+    transform: scale(2);
+} */

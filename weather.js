@@ -44,4 +44,11 @@ form.addEventListener('submit',(e) => {
         getWeatherByLocation(city); 
     }
 });
-
+document.addEventListener("DOMContentLoaded", function()  {
+    document.addEventListener('keydown', (e) => {
+        if (e.keyCode === 27){
+            document.getElementById("search").focus();
+            document.getElementById("search").select();
+        }
+    });
+});

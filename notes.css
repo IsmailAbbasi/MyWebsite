@@ -16,7 +16,7 @@ body {
   box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
   margin: 20px;
   height: 400px;
-  width: 380px;
+  width: 340px;
 }
 
 .note .tools {
@@ -72,7 +72,7 @@ body {
 .note .topic {
   display: flex;
   justify-content: flex-start;
-  margin-right: 100px;
+  margin-right: 40px;
 }
 
 .note .topic input{

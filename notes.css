@@ -16,7 +16,7 @@ body {
   box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
   margin: 20px;
   height: 400px;
-  width: 400px;
+  width: 380px;
 }
 
 .note .tools {
@@ -72,7 +72,7 @@ body {
 .note .topic {
   display: flex;
   justify-content: flex-start;
-  margin-right: 130px;
+  margin-right: 100px;
 }
 
 .note .topic input{
@@ -97,3 +97,12 @@ body {
 .note .topic input:hover{
   background-color:#2b6285;
 }
+/* h3 { 
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 10px;
+  margin-right: 2px;
+  font-weight: bold;
+} */

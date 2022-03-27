@@ -1,84 +1,417 @@
+<!--
+=========================================================
+* Argon Design System - v1.2.2
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-design-system
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> Ismail Abbasi</title>
-  <link rel="stylesheet" href="web.css" />
-  <link rel="shortcut icon" href="/i2.ico" type="image/x-icon">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>
+    Ismail Abbasi - Welcome to my page
+  </title>
+  <!-- <link rel="stylesheet" href="web.css" /> -->
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link href="../assets/css/font-awesome.css" rel="stylesheet" />
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="../assets/css/argon-design-system.css?v=1.2.2" rel="stylesheet" />
+  <style>
+    .chat-bot{
+  position: fixed;
+  right:10px;
+  bottom:10px;
+  /* background-color:white; */
+  background: linear-gradient(to right, #bdc3c7, #bcd9f6);
+  box-shadow: 2px 2px 2px #bdbdbd;
+  /* border-radius: 50%; */
+  border-radius: 40px;
+ /* background-color: #e1e1e1; */
+  padding:10px;
+  font-weight: 600;
+  font-size:18px;
+}
+
+.chat-bot a{
+  text-decoration: none;
+  color:black;
+  position: relative;
+  top:2px;
+}
+  </style>
 </head>
 
-<body>
-  <nav>
-    <!-- <div class="logo">
-        <img src="i2.png" alt="">
-    </div> -->
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="blog.html">Blogs</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact Me</a>
-    </div>
-    <div id="main">
-      <button class="openbtn" onclick="openNav()">☰ Menu</button>
-    </div>
-
-    <!-- <header> -->
-    <div class="social">
-      <!-- <div class="i2">
-        <a href="https://izzy.fun" target="_blank" rel="noopener noreferrer"><img src="i2.png" alt="" /></a>
-      </div> -->
-      <div class="instagram">
-        <a href="https://www.instagram.com/abbasi.ismaiil/" target="_blank" rel="noopener noreferrer"><img src="instalogo.png" alt="" /></a>
-      </div>
-      <div class="twitter">
-        <a href="https://twitter.com/izzyxD_?t=nSmpPubZZyCpB5dNxPzkqg&s=09" target="_blank" rel="noopener noreferrer"><img src="Twitter-Logo.png" alt="" /></a>
-      </div>
-      <div class="discord">
-        <a href="https://discord.gg/Rr7AHS3yn3" target="_blank" rel="noopener noreferrer"><img src="discord-mascot.png" alt="" /></a>
-      </div>
-      <div class="github">
-        <a href="https://github.com/IsmailAbbasi" target="_blank" rel="noopener noreferrer"><img src="github.png" alt="" /></a>
-      </div>
-    </div>
-    <!-- </header> -->
-  </nav>
-  <main>
+<body class="landing-page">
+  <!-- Navbar -->
+  <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light py-2">
     <div class="container">
-      <h1>Hey ! All <br> I'm Ismail Abbasi</h1>
-      <br />
-      <h2>
-        I am Student and a Developer( trying to become a developer :). Studying CSE from
-        Jamia Hamdard. 
-        you can found more info in <a href="about.html">About</a>
-        <br>
-        And I have worked on some <a href="projects.html">Projects</a>
-      </h2>
+      <a class="navbar-brand mr-lg-5" href="../index.html">
+        <img src="i2.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbar_global">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="../../../index.html">
+                <img src="i2.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+              <i class="ni ni-ui-04 d-lg-none"></i>
+              <span class="nav-link-inner--text">My Projects</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-xl">
+              <div class="dropdown-menu-inner">
+                <a href="passwordgenerator/passwordgenerator.html" class="media d-flex align-items-center">
+                  <!-- <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                    <i class="ni ni-spaceship"></i>
+                  </div> -->
+                  <div class="media-body ml-3">
+                    <h6 class="heading text-primary mb-md-1">Password Generator</h6>
+                    <p class="description d-none d-md-inline-block mb-0">Generates Strong & Secure Passwords</p>
+                  </div>
+                </a>
+                <a href="weather/weather.html" class="media d-flex align-items-center">
+                  <!-- <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                    <i class="ni ni-palette"></i>
+                  </div> -->
+                  <div class="media-body ml-3">
+                    <h6 class="heading text-primary mb-md-1">Weather App</h6>
+                    <p class="description d-none d-md-inline-block mb-0">Tells Weather of any place around the globe accurately .</p>
+                  </div>
+                </a>
+                <a href="notes/notes.html" class="media d-flex align-items-center">
+                  <!-- <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                    <i class="ni ni-ui-04"></i>
+                  </div> -->
+                  <div class="media-body ml-3">
+                    <h5 class="heading text-warning mb-md-1">Notepad</h5>
+                    <p class="description d-none d-md-inline-block mb-0">You can make Notes here which will be save in your local storage and you can access that when ever you want.</p>
+                  </div>
+                <a href="clock/clock.html" class="media d-flex align-items-center">
+                  <!-- <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                    <i class="ni ni-ui-04"></i>
+                  </div> -->
+                  <div class="media-body ml-3">
+                    <h5 class="heading text-warning mb-md-1"> Alarm Clock</h5>
+                    <p class="description d-none d-md-inline-block mb-0">Digital clock with Alarm Specification.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+              <i class="ni ni-collection d-lg-none"></i>
+              <span class="nav-link-inner--text">Menu</span>
+            </a>
+            <div class="dropdown-menu">
+             
+              <a href="index.html" class="dropdown-item">Home</a>
+              <a href="aboutme.html" class="dropdown-item">About</a>
+              <a href="blogs.html" class="dropdown-item">Blogs</a>
+              <a href="contactme.html" class="dropdown-item">Contact Me</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://www.facebook.com/Izzyxd118/" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
+              <i class="fa fa-facebook-square"></i>
+              <span class="nav-link-inner--text d-lg-none">Facebook</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://www.instagram.com/abbasi.ismaiil/" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="nav-link-inner--text d-lg-none">Instagram</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://twitter.com/izzyxD_?t=nSmpPubZZyCpB5dNxPzkqg&s=09" data-toggle="tooltip" title="Follow us on Twitter">
+              <i class="fa fa-twitter-square"></i>
+              <span class="nav-link-inner--text d-lg-none">Twitter</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://github.com/IsmailAbbasi" target="_blank" data-toggle="tooltip" title="Star us on Github">
+              <i class="fa fa-github"></i>
+              <span class="nav-link-inner--text d-lg-none">Github</span>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="btn btn-neutral" href="https://www.creative-tim.com/builder/argon" target="_blank">
+              <span class="nav-link-inner--text">Online Builder</span>
+            </a>
+          </li> -->
+          <!-- <li class="nav-item d-none d-lg-block">
+            <a href="https://www.creative-tim.com/product/argon-design-system-pro?ref=ads-upgrade-pro" target="_blank" class="btn btn-neutral btn-icon">
+              <span class="btn-inner--icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>
+              <span class="nav-link-inner--text">Upgrade to PRO</span>
+            </a>
+          </li> -->
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="wrapper">
+    <div class="section section-hero section-shaped">
+      <div class="shape shape-style-3 shape-default">
+        <span class="span-150"></span>
+        <span class="span-50"></span>
+        <span class="span-50"></span>
+        <span class="span-75"></span>
+        <span class="span-100"></span>
+        <span class="span-75"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+      </div>
+      <div class="page-header">
+        <div class="container shape-container d-flex align-items-center py-lg">
+          <div class="col px-0">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h1 class="text-white display-1">Ismail Abbasi</h1>
+                <h2 class="display-4 font-weight-normal text-white">I am Student and a Developer ( trying to become a developer :) . Studying CSE from Jamia Hamdard. you can found more info in About.
+                  </h2>
+                <!-- <div class="btn-wrapper mt-4">
+                  <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-warning btn-icon mt-3 mb-sm-0">
+                    <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span>
+                    <span class="btn-inner--text">Play more</span>
+                  </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    <div class="section features-6">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="info info-horizontal info-hover-primary">
+              <div class="description pl-4">
+                <h5 class="title">About</h5>
+                <p>The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now.</p>
+                <a href="aboutme.html" class="text-info">Learn more</a>
+              </div>
+            </div>
+            <div class="info info-horizontal info-hover-primary mt-5">
+              <div class="description pl-4">
+                <h5 class="title">Blogs</h5>
+                <p>There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because you can’t learn anything from a compliment. If everything I did failed - which it doesn't.</p>
+                <a href="blogs.html" class="text-info">Learn more</a>
+              </div>
+            </div>
+            <div class="info info-horizontal info-hover-primary mt-5">
+              <div class="description pl-4">
+                <h5 class="title">Contact Us</h5>
+                <p>You can contact me on Various PLatforms -
+                  Twitter ,Instagram,Discord
+                  And here is my email - ismailabbasi118@gmail.com.</p>
+                <a href="contactme.html" class="text-info">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-10 mx-md-auto">
+            <img class="ml-lg-5" src="../assets/img/Startup_SVG.svg" width="100%">
+            
+          </div>
+          <div class="chat-bot">
+            <a href="https://ultron-chat.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <lord-icon
+                src="https://cdn.lordicon.com/uvextprq.json"
+                trigger="loop"
+                style="width:50px;height:50px">
+              </lord-icon>
+              Say Hello!
+            </a>
+          </div>
+          
+       
+        
+        </div>
+      </div>
+    </div>
+    <div class="section features-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <span class="badge badge-primary badge-pill mb-3">Here</span>
+            <h3 class="display-3">Projects that I have worked upon</h3>
+            <p class="lead">These are some projects that i have made with JS and Python.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info">
+              <!-- <div class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle">
+                <i class="ni ni-settings-gear-65"></i>
+              </div> -->
+              <h6 class="info-title text-uppercase text-primary">Weather App</h6>
+              <p class="description opacity-8"> Weather of any place around the globe accurately.</p>
+              <a href="weather/weather.html" class="text-primary">Check it out
+                <i class="ni ni-bold-right text-primary"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <!-- <div class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle">
+                <i class="ni ni-atom"></i>
+              </div> -->
+              <h6 class="info-title text-uppercase text-success">Password Generator</h6>
+              <p class="description opacity-8">Generates Strong & Secure Passwords Tells.</p>
+              <a href="passwordgenerator/passwordgenerator.html" class="text-primary">Check it out
+                <i class="ni ni-bold-right text-primary"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <!-- <div class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle">
+                <i class="ni ni-atom"></i>
+              </div> -->
+              <h6 class="info-title text-uppercase text-success">Digital Clock</h6>
+              <p class="description opacity-8">Digital clock with Alarm Specification.</p>
+              <a href="clock/clock.html" class="text-primary">Check it out
+                <i class="ni ni-bold-right text-primary"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <!-- <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle">
+                <i class="ni ni-world"></i>
+              </div> -->
+              <h6 class="info-title text-uppercase text-warning">Notepad</h6>
+              <p class="description opacity-8">You can make Notes here which will be save in your local storage and you can access that when ever you want.</p>
+              <a href="notes/notes.html" class="text-primary">Check it out
+                <i class="ni ni-bold-right text-primary"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <footer class="footer">
+      <div class="container">
+        <div class="row row-grid align-items-center mb-5">
+          <div class="col-lg-6">
+            <h3 class="text-primary font-weight-light mb-2">Thank you for exlporing my webpage!</h3>
+            <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+          </div>
+          <div class="col-lg-6 text-lg-center btn-wrapper">
+            <button target="_blank" href="https://twitter.com/izzyxD_?t=nSmpPubZZyCpB5dNxPzkqg&s=09" rel="nofollow" class="btn btn-icon-only btn-twitter rounded-circle" data-toggle="tooltip" data-original-title="Follow us">
+              <span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
+            </button>
+            <button target="_blank" href="https://www.facebook.com/Izzyxd118/" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
+              <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
+            </button>
 
-    <script>
-      function openNav() {
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-      }
-
-      function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-      }
-    </script>
-
-    <script src="index.js"></script>
-  </main>
-  <footer class="flex-all-center">
-    <p> All right reserved |&copy; 2022 |<div class="i2">
-      <a href="https://izzy.fun" target="_blank" rel="noopener noreferrer"><img src="i2.png" alt="" /></a>
-    </div></p>
-  </footer>
+            <button target="_blank" href="https://www.instagram.com/abbasi.ismaiil/"  rel="nofollow" class="btn btn-icon-only btn-instagram rounded-circle" data-toggle="tooltip" data-original-title="Follow us">
+              <span class="btn-inner--icon"><i class="fa fa-instagram"></i></span>
+            </button>
+            <button target="_blank" href="https://github.com/IsmailAbbasi" rel="nofollow" class="btn btn-icon-only btn-github rounded-circle" data-toggle="tooltip" data-original-title="Star on Github">
+              <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
+            </button>
+          </div>
+        </div>
+        <hr>
+        <div class="row align-items-center justify-content-md-between">
+          <div class="col-md-6">
+            <div class="copyright">
+              &copy; 2022 <a href="" target="_blank">All Right Reserved</a>.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav nav-footer justify-content-end">
+              <!-- <li class="nav-item">
+                <a href="projects.html" class="nav-link" target="_blank">Projects</a>
+              </li> -->
+              <li class="nav-item">
+                <a href="aboutme.html" class="nav-link" target="_blank">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="blogs.html" class="nav-link" target="_blank">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="contactme.html" class="nav-link" target="_blank">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="index.js"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="../assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/moment.min.js"></script>
+  <script src="../assets/js/plugins/datetimepicker.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/bootstrap-datepicker.min.js"></script>
+  <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <script src="../assets/js/argon-design-system.min.js?v=1.2.2" type="text/javascript"></script>
+  <!-- <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script> -->
+  <script>
+    // // window.TrackJS &&
+    // //   TrackJS.install({
+    // //     token: "ee6fab19c5a04ac1a32a645abde4613a",
+    // //     application: "argon-design-system-pro"
+    //   });
+  </script>
+  <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
 </body>
 
 </html>

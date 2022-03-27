@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@500&family=Spectral:ital,wght@0,200;1,200&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #a1d9f0; */
+  background-color: rgb(220 228 233);
+  font-family: "Spectral";
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+.note {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+  margin: 20px;
+  height: 400px;
+  width: 340px;
+}
+
+.note .tools {
+  /* background-color: #0f2736; */
+  background-color: #18577f;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.note .main {
+  /* display: none; */
+  height: 340px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #eee;;
+  white-space: pre-wrap;
+  padding: 0 10px;
+}
+.note textarea {
+  outline: none;
+  font-family: inherit;
+  border: none;
+  height: 370px;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  
+}
+.note .hidden {
+  display: none;
+}
+.add {
+    background-color: #142467;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    /* margin: 2rem auto; */
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.note .topic {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 40px;
+}
+
+.note .topic input{
+  border-radius: 4px;
+  cursor: pointer;
+  height: 30px;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  border:2px solid transparent;
+  padding: 0 5px;
+  transition: 0.2s all ease;
+}
+
+.note .topic input:focus{
+  border:2px solid rgba(255, 255, 255, 0.473);
+  background-color:#2a6183;
+}
+.note .topic input:hover{
+  background-color:#2b6285;
+}
+/* h3 { 
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 10px;
+  margin-right: 2px;
+  font-weight: bold;
+} */

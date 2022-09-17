@@ -1,16 +1,4 @@
-<!--
-=========================================================
-* Argon Design System - v1.2.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!--  -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,6 +11,7 @@ Coded by www.creative-tim.com
     Ismail Abbasi - Welcome to my page
   </title>
   <!--     Fonts and icons     -->
+  <style>#more {display: none;}</style>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <!-- Nucleo Icons -->
@@ -219,9 +208,12 @@ Coded by www.creative-tim.com
             <div class="mt-5 py-5 border-top text-center">
               <div class="row justify-content-center">
                 <div class="col-lg-9">
-                  <p>An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.</p>
-                  <a href="javascript:;">Show more</a>
-                </div>
+                  <!-- <a href="javascript:;">Show more</a>
+                </div> -->
+                <p> There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. <span id="dots">...</span><span id="more"><br>  I’m not really specifically talented at anything except for the ability to learn.That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because you can’t learn anything from a compliment. If everything I did failed - which it doesn't.
+                  </span></p>
+
+                  <button onclick="myFunction()" id="myBtn" class="btn btn-link">Read more</button>
               </div>
             </div>
           </div>
@@ -277,6 +269,24 @@ Coded by www.creative-tim.com
       </div>
     </footer>
   </div>
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+    
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
   <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>

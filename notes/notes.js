@@ -10,11 +10,9 @@ if(notes) {
    });
 }
 
-
 addBtn.addEventListener('click',() => {
    addNewNote();  
 });
-
 
 function addNewNote(text = '', topic='') {
    const note = document.createElement('div')
@@ -92,6 +90,7 @@ notesText.forEach(note => {
    notes.push(note.value);
 });
 localStorage.setItem('notes',JSON.stringify(notes));
+updateTopic();
 }
 
 function updateTopic() {
